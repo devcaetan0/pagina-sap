@@ -61,4 +61,37 @@ space-between;
 sans-serif;
 }
 
+.Bloco1, .Bloco2, .Bloco3, .Bloco4, .Bloco5, .Bloco6 {
+  background: #d2f2fd; 
+  border-radius: 18px;
+  min-height: 120px;
+  margin: 24px 0;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.Bloco1 {
+  min-height: 220px;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 32px auto 24px auto;
+}
+.Bloco2, .Bloco3, .Bloco4, .Bloco5, .Bloco6 {
+  min-height: 160px;
+}
+
+
+main > div[style*="display: flex"] > div {
+  flex: 1;
+}
+
+main > div[style*="display: flex"] {
+  margin-bottom: 24px;
+}
+
+main {
+  background: #f4faff;
+  min-height: 100vh;
+}
+
 
