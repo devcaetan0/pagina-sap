@@ -1,7 +1,29 @@
 /* ESTILIZAÇÃO DO SITE 1 */
 
+body{
+    margin: 0;
+    padding: 0;
+}
 
+#navbar-site1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10;
+}
 
+#links-navbar-site1{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
 
+.item-navbar-site1{
+    padding: 5;
+}
+
+.item-icon-site1{
+    width: 25;
+    height: 25;
+    padding: 3;
+}
 
 /* ESTILIZAÇÃO DO SITE 2 */
