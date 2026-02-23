@@ -5,3 +5,38 @@
 
 
 /* ESTILIZAÇÃO DO SITE 2 */
+
+#icon{
+ 
+  width: 150px;
+    height: 150px;
+    padding-right: 10px;
+}
+
+
+#navbarSite2{
+    display: flex;
+    justify-content:
+space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(2, 217, 255, 0.158);
+    color: rgb(17, 0, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,
+sans-serif;
+}
+
+#Bloco2{
+    padding: 100px;
+    display: flex;
+    justify-content:
+space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(2, 217, 255, 0.158);
+    color: rgb(17, 0, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,
+sans-serif;
+}
+
+
