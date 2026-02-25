@@ -1,83 +1,101 @@
-<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replicação SAP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- Introdução -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Replicação: Tela 2</title>
-  </head>
+    <title>Replicação: Tela 2</title
+  head>
 
   <body>
-
-    <header>
-
-    <nav id="navbarSite2">
-          <img id="icon" src="assets/image/FotoRobo1.png" alt="Robo Developer" />
-        </a>
-    </header>
-
     <main>
-      
 
-      <div class="Bloco1" style="display: flex; align-items: center; justify-content: space-between; padding: 32px 48px;">
-        <div style="display: flex; align-items: center; gap: 32px;">
-          <img src="assets/image/FotoRobo1.png" alt="Robo Developer" style="width: 120px; height: 120px;">
-          <div>
-            <h2 style="color: #1a4fa3; margin: 0 0 12px 0; font-size: 2rem;">Olá, tudo bem?</h2>
-            <h2 style="color: #1a4fa3; margin: 0; font-size: 1.5rem;">Como posso ajudar hoje?</h2>
-          </div>
-        </div>
-        <ul style="list-style: none; padding: 0; margin: 0;">
-          <li style="margin-bottom: 10px;"><button class="btn-bloco">QUERO COMPRAR MATERIAL</button></li>
-          <li style="margin-bottom: 10px;"><button class="btn-bloco">QUERO COMPRAR SERVIÇO</button></li>
-          <li style="margin-bottom: 10px;"><button class="btn-bloco">CONSULTAR FLUXO DE PROCESSOS</button></li>
-          <li style="margin-bottom: 10px;"><button class="btn-bloco">STATUS DAS MINHAS REQUISIÇÕES</button></li>
-          <li><button class="btn-bloco">NÃO SEI AO CERTO, ME AJUDE</button></li>
-        </ul>
-      </div>
-      <div style="display: flex; gap: 24px; margin: 0 auto 0 auto; max-width: 1200px;">
-        
+        <!--Bem Vindo -->
 
-        <div class="Bloco2" style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: #1a4fa3; font-size: 1.2rem;">Baseado em suas últimas compras</div>
-        
+        <section id="boasvindas">
+            <div id="container-boasvindas">
+                <div id="robo-container">
+                    <img src="assets/image/FotoRobo1.png" alt="imagem de um robo" id="robo">
+                </div>
+                <div id="texto-container">
+                    <h2>Olá, tudo bem?</h2>
+                    <h2>Como posso <br> ajudar hoje?</h2>
+                </div>
+                <div id="botoes-container">
+                    <ul id="listaboasvindas">
+                        <li class="tabela">QUERO COMPRAR MATERIAL</li>
+                        <li class="tabela">QUERO COMPRAR SERVIÇO</li>
+                        <li class="tabela">CONSULTAR FLUXO DE PROCESSOS</li>
+                        <li class="tabela">ESTATOS DAS MINHAS REQUISIÇÔES</li>
+                        <li class="tabela">NAO SEI AO CERTO, ME AJUDA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <div class="Bloco3" style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: #1a4fa3; font-size: 1.2rem;">Status de pedidos recentes</div>
-      </div>
-      <div style="display: flex; gap: 24px; margin: 0 auto 0 auto; max-width: 1200px;">
-      
+        <!-- Recomendações -->
 
-        <div class="Bloco4" style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: #1a4fa3; font-size: 1.2rem;">Status das últimas requisições</div>
-        
+        <section id="recomendacoes">
+            <div id="textorec">
+                <h2>Baseado em suas ultimas compras</h2>
+                <p>Ver todas as recomendações</p>
+            </div>
+            <div id="containerproduto">
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/FolhaSulfite1.png" alt="Papel Sulfite">
+                    <h3>Papel Sulfite A4 <br> R$34,41</h3>
+                </div>
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/SAP.jpg" alt="Logo SAP">
+                    <h3>Solicitar Serviços <br> R$123,45</h3>
+                </div>
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/granpeador1.jpg" alt="Grampeador">
+                    <h3>Grampeador <br> R$14,30</h3>
+                </div>
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/canetaazul1.png" alt="Caneta Azul">
+                    <h3>Caneta Azul <br>R$1,00</h3>
+                </div>
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/lapis1.png" alt="Lápis">
+                    <h3>Lapis preto <br> R$0,60</h3>
+                </div>
+                <div class="produto">
+                    <img class="img_produto" src="assets/image/caderno100folhas.png" alt="Caderno">
+                    <h3>Caderno 100 folhas <br> R$10,40</h3>
+                </div>
+            </div>
+            <img id="pontos" src="assets/image/loading.png" alt="Loading">
+        </section>
 
-        <div class="Bloco5" style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: #1a4fa3; font-size: 1.2rem;">Mensagens e alertas</div>
-        
-
-        <div class="Bloco6" style="display: flex; align-items: center; justify-content: center; font-weight: 600; color: #1a4fa3; font-size: 1.2rem;">Últimas transações e pedidos</div>
-      </div>
+        <!-- Status -->
+        <section id="pedidos">
+            <div id="textoped">
+                <h2>Status das ultimas requisições</h2>
+                <p>Ver todos os processos</p>
+            </div>
+            <div class="pedido-item">
+                <h3>Nº pedido #12345</h3>
+                <img src="assets/image/statusDoPedido.png" alt="Status do pedido">
+            </div>
+            <div class="pedido-item">
+                <h3>Nº pedido #12344</h3>
+                <img src="assets/image/statusDoPedido.png" alt="Status do pedido">
+            </div>
+            <div class="pedido-item">
+                <h3>Nº pedido #12343</h3>
+                <img src="assets/image/statusDoPedido.png" alt="Status do pedido">
+            </div>
+        </section>
     </main>
-
-
-    
-<style>
-.btn-bloco {
-  width: 270px;
-  padding: 10px 0;
-  border: none;
-  border-radius: 22px;
-  background: #1a4fa3;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  margin-bottom: 6px;
-  transition: background 0.2s;
-}
-.btn-bloco:hover {
-  background: #029ddb;
-}
-</style>
-  </body>
+</body>
 </html>
-
-

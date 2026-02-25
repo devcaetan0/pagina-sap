@@ -99,65 +99,145 @@ body{
   width: 150px;
     height: 150px;
     padding-right: 10px;
+>>>>>> 762189c0f255b47584f2c004d9c17a75647d8522
 }
 
 
-#navbarSite2{
+#boasvindas {
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+#container-boasvindas {
     display: flex;
-    justify-content:
-space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    background-color: rgba(2, 217, 255, 0.158);
-    color: rgb(17, 0, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana,
-sans-serif;
+    gap: 30px;
 }
 
-#Bloco2{
-    padding: 100px;
+#robo-container {
+    flex: 0 0 auto;
+}
+
+#robo {
+    width: 200px;
+}
+
+#texto-container {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+#botoes-container {
+    flex: 1;
+}
+
+#listaboasvindas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content:
-space-between;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tabela {
+    background-color: #043fae;
+    color: #d9e9fd;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#recomendacoes {
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 25px;
+}
+
+#textorec {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    background-color: rgba(2, 217, 255, 0.158);
-    color: rgb(17, 0, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana,
-sans-serif;
+    margin-bottom: 20px;
 }
 
-.Bloco1, .Bloco2, .Bloco3, .Bloco4, .Bloco5, .Bloco6 {
-  background: #d2f2fd; 
-  border-radius: 18px;
-  min-height: 120px;
-  margin: 24px 0;
-  width: 100%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+#textorec h2 {
+    margin: 0;
 }
-.Bloco1 {
-  min-height: 220px;
-  margin-bottom: 32px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 32px auto 24px auto;
+
+#textorec p {
+    color: #043fae;
+    margin: 0;
 }
-.Bloco2, .Bloco3, .Bloco4, .Bloco5, .Bloco6 {
-  min-height: 160px;
+
+#containerproduto {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    flex: 0 0 auto;
+    min-width: 150px;
+}
+
+.img_produto {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+#pontos {
+    width: 100px;
+    display: block;
+    margin: 15px auto 0;
 }
 
 
-main > div[style*="display: flex"] > div {
-  flex: 1;
+#pedidos {
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
 }
 
-main > div[style*="display: flex"] {
-  margin-bottom: 24px;
+#textoped {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-main {
-  background: #f4faff;
-  min-height: 100vh;
+#textoped h2 {
+    margin: 0;
 }
 
+#textoped p {
+    color: #043fae;
+    margin: 0;
+}
 
+.pedido-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.pedido-item img {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+}
