@@ -179,7 +179,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: rgba(2, 217, 255, 0.158);
+    background-color: rgba(#d9e9fd);
     color: rgb(17, 0, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
