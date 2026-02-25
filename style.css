@@ -176,14 +176,12 @@ body{
     padding: 1px;
     margin: 1px;
     display: flex;
-<<<<<<< HEAD
     justify-content: space-between;
     align-items: center;
     padding: 40px;
     background-color: rgba(2, 217, 255, 0.158);
     color: rgb(17, 0, 255);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-=======
     flex-direction: column;
     gap: 10px;
 }
@@ -210,7 +208,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
->>>>>>> 16b0a90e901cbf06fa1bdcce9e1a438d45bc82e6
 }
 
 #textorec h2 {
