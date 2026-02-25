@@ -23,6 +23,7 @@ body{
   list-style: none;
   display: flex;
   padding-left: 10;
+  gap: 5px;
 }
 
 #linha-amarela-site1{
@@ -30,7 +31,6 @@ body{
   background-color: rgb(243, 247, 18);
   color: rgb(243, 247, 18);
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -57,17 +57,23 @@ body{
 
 #navsheet-site1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
   background-color: rgb(238, 238, 238);
   align-items: center;
   width: 400;
   justify-content: space-around;
-  border-bottom: 5px solid rgb(0, 68, 216);
+  
 }
 
 #titulo-repositorios-site1{
   padding-top: 6;
   display: flex;
+}
+
+#titulo-navegacao{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid rgb(1, 118, 226);
 }
 
 #navsheet-site1{
@@ -78,21 +84,50 @@ body{
 #items-navsheet-site1{
   list-style: none;
   display: flex;
+  padding-left: 0;
+  gap: 5px;
 }
 
 .navsheet-links-site1{
   align-items: center;
-  display: center;
+  display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .navsheet-img-icon-site1{
   width: 25;
   height: 25;
-  align-items: center;
 }
 
-/* --------- ESTILIZAÇÃO DO SITE 2 --------- */
+#iconbar{
+  background-color: rgb(196, 196, 196);
+  margin: 10;
+  padding: 10;
+  height: 500;
+}
+
+.item-navsheet{
+  padding: 10;
+  align-items: center;
+  width: 500;
+}
+
+#titulo-tabela{
+  border: 5 solid black;
+  gap: 10px;
+}
+
+#tabela-navsheet{
+  background-color: white;
+  padding: 10;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  display: center;
+}
+  
+/* --------- ESTILIZAÇÃO DO SITE  --------- 2 */
 
 #icon{
  
@@ -141,6 +176,12 @@ body{
     padding: 1px;
     margin: 1px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(2, 217, 255, 0.158);
+    color: rgb(17, 0, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     gap: 10px;
 }
